@@ -6,16 +6,22 @@
 	Example of Undirected Graph:
 	
 	(Node 1) -- (Node 2)
+	This is same as (Node 2) -- (Node 1)
 	
 	Example of Directed Graph:
 	
-	(Node 1) --> (Node 2)
+	(Node 1) --> (Node 2) 
+	
+	This is not same as (Node 2) --> (Node 1)
 	
 	Example of Unreachable node in an undirected graph:
 	
 	(Node 1) -- (Node 2) -- (Node 3)    (Node 4) -- (Node 5)    (Node 6)
 
-	In the graph above, we have a graph of 6 nodes, with Node 1 as root node. The root node is connected to Node 2 and Node 3, however, there is no edge linking Node 1, Node 2 and Node 3 with Node 4, Node 5 or Node 6. Hence, Node 4, Node 5 and Node 6 are unreachable from root node i.e Node 1.
+	In the graph above, there are 6 nodes, with Node 1 as root node. The root node is connected to Node 2 and Node 3, however, there is no edge linking Node 1, Node 2 and Node 3 with Node 4, Node 5 or Node 6. Hence, Node 4, Node 5 and Node 6 are unreachable from root node i.e Node 1.
+	
+	Note: All graphs illustrated as examples are unweighted graphs.
+	
 	
 	Author: Ravi Shankar
 	Date: 04-05-2021
