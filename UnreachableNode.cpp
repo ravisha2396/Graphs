@@ -3,7 +3,13 @@
 	Program to find the number of unreachable nodes in an undirected unweighted graph.
 	
 	Question:
-	You have been given a graph consisting of N nodes and M edges. The nodes in this graph are enumerated from 1 to N . The graph can consist of self-loops as well as multiple edges. This graph consists of a special node called the head node. You need to consider this and the entry point of this graph. You need to find and print the number of nodes that are unreachable from this head node.
+	
+	You have been given a graph consisting of N nodes and M edges. The nodes in this graph are enumerated from 1 to N .
+	The graph can consist of self-loops as well as multiple edges.
+	This graph consists of a special node called the head node.
+	You need to consider this and the entry point of this graph. You need to find and print the number of nodes that are unreachable from this head node.
+	
+	Concept:
 	
 	An undirected graph is a graph in which the direction of an edge between the nodes doesn't matter.
 	
@@ -24,7 +30,6 @@
 
 	In the graph above, there are 6 nodes, with Node 1 as head node. The head node is connected to Node 2 and Node 3, however, there is no edge linking Node 1, Node 2 and Node 3 with Node 4, Node 5 or Node 6. Hence, Node 4, Node 5 and Node 6 are unreachable from head node i.e Node 1.
 	
-	Note: All graphs illustrated as examples are unweighted graphs.
 	
 	
 	Author: Ravi Shankar
