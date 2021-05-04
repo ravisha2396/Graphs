@@ -1,26 +1,9 @@
-***UnreachableNodeCount***
+### Graph Theory
 
-###### A program in cpp which can be used to find the number of unreachable nodes from an index node, in an undirected graph.
+###### This repository consists of solutions to the problems related to graphs.
 
-###### Input - first line represents the number of nodes N and number of edges M of an undirected graph.
+###### As you know, graphs have a wide range of applications like GPS, network packet routing, social media connections etc.
 
-###### Next M-1 lines represent the connections between nodes a and b in an undirected graph.
+###### We will look at some popular situations that arise when we model problems into graphs and try to solve them.
 
-###### The last line represents the value of the root node or index node of an undirected graph.
-
-## Input example : 
-###### 10 10
-###### 8 1
-###### 8 3
-###### 7 4
-###### 7 5
-###### 2 6
-###### 10 7
-###### 2 8
-###### 10 9
-###### 2 10
-###### 5 10
-###### 2
-
-## Output example
-###### 0
+###### You will get to explore some popular ways to store graphs and traverse graphs in optimal ways to best solve the problems associated with graphs. 
